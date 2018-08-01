@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.app9.MainActivity">
+
+    <com.example.app9.MyScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:onClick="test1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#00ff00"
+            android:text="测试" />
+
+        <TextView
+            android:onClick="test2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#00f0ff"
+            android:text="测试1" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#00f0f0"
+            android:text="测试2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#00ffff"
+            android:text="测试3" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#00fff0"
+            android:text="测试4" />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#00fff0"
+            android:text="测试4" />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#00fff0"
+            android:text="测试4" />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#00fff0"
+            android:text="测试4" />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#00fff0"
+            android:text="测试4" />
+
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#00f0ff"
+                    android:text="测试1" />
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#f0f0ff"
+                    android:text="测试2" />
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#00f03f"
+                    android:text="测试3" />
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </com.example.app9.MyScrollView>
+
+</LinearLayout>
